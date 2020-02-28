@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFTYPE	encoder_define.hh	/^}BUFTYPE;$/;"	t	typeref:struct:__anon2
+Destory	H264FramedLiveSource.hh	/^    void Destory();$/;"	p	class:Device	access:public	signature:()
+Device	H264FramedLiveSource.hh	/^class Device$/;"	c
+Device::Destory	H264FramedLiveSource.hh	/^    void Destory();$/;"	p	class:Device	access:public	signature:()
+Device::GetNextFrame	H264FramedLiveSource.hh	/^    void GetNextFrame();$/;"	p	class:Device	access:public	signature:()
+Device::Init	H264FramedLiveSource.hh	/^    void Init();$/;"	p	class:Device	access:public	signature:()
+Device::camera_able_read	H264FramedLiveSource.hh	/^    int  camera_able_read(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::close_camera	H264FramedLiveSource.hh	/^    void close_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::close_encoder	H264FramedLiveSource.hh	/^    void close_encoder(); $/;"	p	class:Device	access:public	signature:()
+Device::compress_begin	H264FramedLiveSource.hh	/^    void compress_begin(Encoder *en, int width, int height);$/;"	p	class:Device	access:public	signature:(Encoder *en, int width, int height)
+Device::compress_end	H264FramedLiveSource.hh	/^    void compress_end(Encoder *en);$/;"	p	class:Device	access:public	signature:(Encoder *en)
+Device::compress_frame	H264FramedLiveSource.hh	/^    int  compress_frame(Encoder *en, int type, char *in, int len, char *out);$/;"	p	class:Device	access:public	signature:(Encoder *en, int type, char *in, int len, char *out)
+Device::en	H264FramedLiveSource.hh	/^	Encoder en;$/;"	m	class:Device	access:public
+Device::fd	H264FramedLiveSource.hh	/^    int fd;$/;"	m	class:Device	access:public
+Device::frame_len	H264FramedLiveSource.hh	/^    int frame_len;$/;"	m	class:Device	access:public
+Device::getnextframe	H264FramedLiveSource.hh	/^	void getnextframe(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::h264_buf	H264FramedLiveSource.hh	/^	char *h264_buf;$/;"	m	class:Device	access:public
+Device::h264_fp	H264FramedLiveSource.hh	/^	FILE *h264_fp;$/;"	m	class:Device	access:public
+Device::init_camera	H264FramedLiveSource.hh	/^    void init_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::init_encoder	H264FramedLiveSource.hh	/^    void init_encoder(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::init_mmap	H264FramedLiveSource.hh	/^    void init_mmap(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::intoloop	H264FramedLiveSource.hh	/^	void intoloop();$/;"	p	class:Device	access:public	signature:()
+Device::n_buffer	H264FramedLiveSource.hh	/^	unsigned int n_buffer;$/;"	m	class:Device	access:public
+Device::n_nal	H264FramedLiveSource.hh	/^    int n_nal;$/;"	m	class:Device	access:public
+Device::open_camera	H264FramedLiveSource.hh	/^    void open_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::pipe_fd	H264FramedLiveSource.hh	/^	FILE *pipe_fd;$/;"	m	class:Device	access:public
+Device::read_one_frame	H264FramedLiveSource.hh	/^    void read_one_frame(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::save_fd	H264FramedLiveSource.hh	/^	FILE *save_fd;$/;"	m	class:Device	access:public
+Device::start_capture	H264FramedLiveSource.hh	/^    void start_capture(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::stop_capture	H264FramedLiveSource.hh	/^    void stop_capture(void);$/;"	p	class:Device	access:public	signature:(void)
+Device::usr_buf	H264FramedLiveSource.hh	/^    BUFTYPE *usr_buf;$/;"	m	class:Device	access:public
+Encoder	encoder_define.hh	/^} Encoder;$/;"	t	typeref:struct:__anon1
+GetNextFrame	H264FramedLiveSource.hh	/^    void GetNextFrame();$/;"	p	class:Device	access:public	signature:()
+INT16_C	stdint.h	196;"	d
+INT16_MAX	stdint.h	97;"	d
+INT16_MIN	stdint.h	92;"	d
+INT32_C	stdint.h	199;"	d
+INT32_MAX	stdint.h	98;"	d
+INT32_MIN	stdint.h	93;"	d
+INT64_C	stdint.h	201;"	d
+INT64_MAX	stdint.h	99;"	d
+INT64_MIN	stdint.h	94;"	d
+INT8_C	stdint.h	194;"	d
+INT8_MAX	stdint.h	96;"	d
+INT8_MIN	stdint.h	91;"	d
+INTMAX_C	stdint.h	205;"	d
+INTMAX_MAX	stdint.h	152;"	d
+INTMAX_MIN	stdint.h	151;"	d
+INTPTR_MAX	stdint.h	142;"	d
+INTPTR_MAX	stdint.h	146;"	d
+INTPTR_MIN	stdint.h	141;"	d
+INTPTR_MIN	stdint.h	145;"	d
+INT_FAST16_MAX	stdint.h	129;"	d
+INT_FAST16_MIN	stdint.h	124;"	d
+INT_FAST32_MAX	stdint.h	130;"	d
+INT_FAST32_MIN	stdint.h	125;"	d
+INT_FAST64_MAX	stdint.h	131;"	d
+INT_FAST64_MIN	stdint.h	126;"	d
+INT_FAST8_MAX	stdint.h	128;"	d
+INT_FAST8_MIN	stdint.h	123;"	d
+INT_LEAST16_MAX	stdint.h	113;"	d
+INT_LEAST16_MIN	stdint.h	108;"	d
+INT_LEAST32_MAX	stdint.h	114;"	d
+INT_LEAST32_MIN	stdint.h	109;"	d
+INT_LEAST64_MAX	stdint.h	115;"	d
+INT_LEAST64_MIN	stdint.h	110;"	d
+INT_LEAST8_MAX	stdint.h	112;"	d
+INT_LEAST8_MIN	stdint.h	107;"	d
+Init	H264FramedLiveSource.hh	/^    void Init();$/;"	p	class:Device	access:public	signature:()
+PTRDIFF_MAX	stdint.h	157;"	d
+PTRDIFF_MIN	stdint.h	156;"	d
+SIG_ATOMIC_MAX	stdint.h	160;"	d
+SIG_ATOMIC_MIN	stdint.h	159;"	d
+SIZE_MAX	stdint.h	162;"	d
+UINT16_C	stdint.h	197;"	d
+UINT16_MAX	stdint.h	102;"	d
+UINT32_C	stdint.h	200;"	d
+UINT32_MAX	stdint.h	103;"	d
+UINT64_C	stdint.h	202;"	d
+UINT64_MAX	stdint.h	104;"	d
+UINT8_C	stdint.h	195;"	d
+UINT8_MAX	stdint.h	101;"	d
+UINTMAX_C	stdint.h	206;"	d
+UINTMAX_MAX	stdint.h	153;"	d
+UINTPTR_MAX	stdint.h	143;"	d
+UINTPTR_MAX	stdint.h	147;"	d
+UINT_FAST16_MAX	stdint.h	134;"	d
+UINT_FAST32_MAX	stdint.h	135;"	d
+UINT_FAST64_MAX	stdint.h	136;"	d
+UINT_FAST8_MAX	stdint.h	133;"	d
+UINT_LEAST16_MAX	stdint.h	118;"	d
+UINT_LEAST32_MAX	stdint.h	119;"	d
+UINT_LEAST64_MAX	stdint.h	120;"	d
+UINT_LEAST8_MAX	stdint.h	117;"	d
+WCHAR_MAX	stdint.h	166;"	d
+WCHAR_MIN	stdint.h	165;"	d
+WINT_MAX	stdint.h	173;"	d
+WINT_MIN	stdint.h	172;"	d
+_ENCODER_DEFINE_HH	encoder_define.hh	9;"	d
+_H264FRAMEDLIVESOURCE_HH	H264FramedLiveSource.hh	10;"	d
+_INTPTR_T_DEFINED	stdint.h	66;"	d
+_STDINT_H	stdint.h	21;"	d
+_UINTPTR_T_DEFINED	stdint.h	75;"	d
+__STDC_CONSTANT_MACROS	stdint.h	27;"	d
+__anon1::handle	encoder_define.hh	/^	x264_t *handle;$/;"	m	struct:__anon1	access:public
+__anon1::nal	encoder_define.hh	/^	x264_nal_t *nal;$/;"	m	struct:__anon1	access:public
+__anon1::param	encoder_define.hh	/^	x264_param_t *param;$/;"	m	struct:__anon1	access:public
+__anon1::picture	encoder_define.hh	/^	x264_picture_t *picture; $/;"	m	struct:__anon1	access:public
+__anon2::length	encoder_define.hh	/^    int length;$/;"	m	struct:__anon2	access:public
+__anon2::start	encoder_define.hh	/^    char *start; $/;"	m	struct:__anon2	access:public
+__need_wchar_t	stdint.h	23;"	d
+__need_wint_t	stdint.h	22;"	d
+camera_able_read	H264FramedLiveSource.hh	/^    int  camera_able_read(void);$/;"	p	class:Device	access:public	signature:(void)
+close_camera	H264FramedLiveSource.hh	/^    void close_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+close_encoder	H264FramedLiveSource.hh	/^    void close_encoder(); $/;"	p	class:Device	access:public	signature:()
+compress_begin	H264FramedLiveSource.hh	/^    void compress_begin(Encoder *en, int width, int height);$/;"	p	class:Device	access:public	signature:(Encoder *en, int width, int height)
+compress_end	H264FramedLiveSource.hh	/^    void compress_end(Encoder *en);$/;"	p	class:Device	access:public	signature:(Encoder *en)
+compress_frame	H264FramedLiveSource.hh	/^    int  compress_frame(Encoder *en, int type, char *in, int len, char *out);$/;"	p	class:Device	access:public	signature:(Encoder *en, int type, char *in, int len, char *out)
+en	H264FramedLiveSource.hh	/^	Encoder en;$/;"	m	class:Device	access:public
+fd	H264FramedLiveSource.hh	/^    int fd;$/;"	m	class:Device	access:public
+frame_len	H264FramedLiveSource.hh	/^    int frame_len;$/;"	m	class:Device	access:public
+getnextframe	H264FramedLiveSource.hh	/^	void getnextframe(void);$/;"	p	class:Device	access:public	signature:(void)
+h264_buf	H264FramedLiveSource.hh	/^	char *h264_buf;$/;"	m	class:Device	access:public
+h264_fp	H264FramedLiveSource.hh	/^	FILE *h264_fp;$/;"	m	class:Device	access:public
+handle	encoder_define.hh	/^	x264_t *handle;$/;"	m	struct:__anon1	access:public
+init_camera	H264FramedLiveSource.hh	/^    void init_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+init_encoder	H264FramedLiveSource.hh	/^    void init_encoder(void);$/;"	p	class:Device	access:public	signature:(void)
+init_mmap	H264FramedLiveSource.hh	/^    void init_mmap(void);$/;"	p	class:Device	access:public	signature:(void)
+int16_t	stdint.h	/^typedef short  int16_t;$/;"	t
+int32_t	stdint.h	/^typedef int  int32_t;$/;"	t
+int8_t	stdint.h	/^typedef signed char int8_t;$/;"	t
+int_fast16_t	stdint.h	/^typedef short  int_fast16_t;$/;"	t
+int_fast32_t	stdint.h	/^typedef int  int_fast32_t;$/;"	t
+int_fast64_t	stdint.h	/^typedef long long  int_fast64_t;$/;"	t
+int_fast8_t	stdint.h	/^typedef signed char int_fast8_t;$/;"	t
+int_least16_t	stdint.h	/^typedef short  int_least16_t;$/;"	t
+int_least32_t	stdint.h	/^typedef int  int_least32_t;$/;"	t
+int_least64_t	stdint.h	/^typedef long long  int_least64_t;$/;"	t
+int_least8_t	stdint.h	/^typedef signed char int_least8_t;$/;"	t
+intmax_t	stdint.h	/^typedef long long  intmax_t;$/;"	t
+intoloop	H264FramedLiveSource.hh	/^	void intoloop();$/;"	p	class:Device	access:public	signature:()
+intptr_t	stdint.h	/^  typedef __int64 intptr_t;$/;"	t
+length	encoder_define.hh	/^    int length;$/;"	m	struct:__anon2	access:public
+n_buffer	H264FramedLiveSource.hh	/^	unsigned int n_buffer;$/;"	m	class:Device	access:public
+n_nal	H264FramedLiveSource.hh	/^    int n_nal;$/;"	m	class:Device	access:public
+nal	encoder_define.hh	/^	x264_nal_t *nal;$/;"	m	struct:__anon1	access:public
+open_camera	H264FramedLiveSource.hh	/^    void open_camera(void);$/;"	p	class:Device	access:public	signature:(void)
+param	encoder_define.hh	/^	x264_param_t *param;$/;"	m	struct:__anon1	access:public
+picture	encoder_define.hh	/^	x264_picture_t *picture; $/;"	m	struct:__anon1	access:public
+pipe_fd	H264FramedLiveSource.hh	/^	FILE *pipe_fd;$/;"	m	class:Device	access:public
+read_one_frame	H264FramedLiveSource.hh	/^    void read_one_frame(void);$/;"	p	class:Device	access:public	signature:(void)
+save_fd	H264FramedLiveSource.hh	/^	FILE *save_fd;$/;"	m	class:Device	access:public
+start	encoder_define.hh	/^    char *start; $/;"	m	struct:__anon2	access:public
+start_capture	H264FramedLiveSource.hh	/^    void start_capture(void);$/;"	p	class:Device	access:public	signature:(void)
+stop_capture	H264FramedLiveSource.hh	/^    void stop_capture(void);$/;"	p	class:Device	access:public	signature:(void)
+uint16_t	stdint.h	/^typedef unsigned short  uint16_t;$/;"	t
+uint32_t	stdint.h	/^typedef unsigned   uint32_t;$/;"	t
+uint8_t	stdint.h	/^typedef unsigned char   uint8_t;$/;"	t
+uint_fast16_t	stdint.h	/^typedef unsigned short  uint_fast16_t;$/;"	t
+uint_fast32_t	stdint.h	/^typedef unsigned  int  uint_fast32_t;$/;"	t
+uint_fast64_t	stdint.h	/^typedef unsigned long long   uint_fast64_t;$/;"	t
+uint_fast8_t	stdint.h	/^typedef unsigned char uint_fast8_t;$/;"	t
+uint_least16_t	stdint.h	/^typedef unsigned short  uint_least16_t;$/;"	t
+uint_least32_t	stdint.h	/^typedef unsigned   uint_least32_t;$/;"	t
+uint_least64_t	stdint.h	/^typedef unsigned long long   uint_least64_t;$/;"	t
+uint_least8_t	stdint.h	/^typedef unsigned char   uint_least8_t;$/;"	t
+uintmax_t	stdint.h	/^typedef unsigned long long uintmax_t;$/;"	t
+uintptr_t	stdint.h	/^  typedef unsigned __int64 uintptr_t;$/;"	t
+uintptr_t	stdint.h	/^  typedef unsigned int uintptr_t;$/;"	t
+usr_buf	H264FramedLiveSource.hh	/^    BUFTYPE *usr_buf;$/;"	m	class:Device	access:public
